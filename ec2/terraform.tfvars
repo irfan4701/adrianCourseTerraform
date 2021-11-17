@@ -1,0 +1,9 @@
+aws_region            = "us-east-1"
+vpc_cidr              = "10.16.0.0/16"
+web_subnets_cidr      = ["10.16.48.0/20", "10.16.112.0/20", "10.16.176.0/20"]
+app_subnets_cidr      = ["10.16.32.0/20", "10.16.96.0/20", "10.16.160.0/20"]
+db_subnets_cidr       = ["10.16.16.0/20", "10.16.80.0/20", "10.16.144.0/20"]
+reserved_subnets_cidr = ["10.16.0.0/20", "10.16.64.0/20", "10.16.128.0/20"]
+key_name              = "terraform"
+public_key_path       = "/home/irfan/Projects/Terraform/adrianCantrill/ec2/terraform.pub"
+instance_type         = "t2.nano"
